@@ -1,0 +1,144 @@
+.sam-block-hover {
+  background-color: var(--forWebsitePrimaryColor);
+  color: #000;
+  box-shadow: 0 0 5px rgb(0 0 0 / 45%);
+  padding: 2rem;
+  font-size: 3.6rem;
+  font-weight: 700;
+  text-align: center;
+  transition: 0.3s;
+  cursor: pointer;
+  &:hover,
+  &.active {
+    background-color: var(--LightBg);
+  }
+  + .sam-block-hover-block {
+    display: none;
+  }
+  &.active + .sam-block-hover-block {
+    display: block;
+  }
+}
+.sam-block-hover2 {
+  background-color: var(--forWebsitePrimaryColor);
+  color: #000;
+  box-shadow: 0 0 5px rgb(0 0 0 / 45%);
+  padding: 2rem;
+  font-size: 3.6rem;
+  font-weight: 700;
+  text-align: center;
+  transition: 0.3s;
+  cursor: pointer;
+  &:hover,
+  &.active2 {
+    background-color: var(--LightBg);
+  }
+  + .sam-block-hover-block {
+    display: none;
+  }
+  &.active2 + .sam-block-hover-block {
+    display: block;
+  }
+}
+.sam-block-hover3 {
+  background-color: var(--forWebsitePrimaryColor);
+  color: #000;
+  box-shadow: 0 0 5px rgb(0 0 0 / 45%);
+  padding: 2rem;
+  font-size: 3.6rem;
+  font-weight: 700;
+  text-align: center;
+  transition: 0.3s;
+  cursor: pointer;
+  &:hover,
+  &.active3 {
+    background-color: var(--LightBg);
+  }
+  + .sam-block-hover-block {
+    display: none;
+  }
+  &.active3 + .sam-block-hover-block {
+    display: block;
+  }
+}
+.sam-block-hover-block {
+  background-color: var(--LightBg);
+  padding: 0 30px 30px;
+  box-shadow: 0px 6px 5px rgb(0 0 0 / 45%);
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    li {
+      font-size: 2.4rem;
+      margin-bottom: 1.5rem;
+      display: flex;
+      span {
+        font-weight: 600;
+        margin-right: 1rem;
+        min-width: 90px;
+      }
+    }
+  }
+  .bonding-level {
+    margin-top: 4rem;
+    h5 {
+      font-size: 2.4rem;
+      font-weight: 600;
+      margin-bottom: 2rem;
+    }
+    p {
+      font-size: 2.4rem;
+    }
+  }
+}
+
+// RESPONSIVE CSS
+@media (max-width: 1730px) {
+  .sam-block-hover {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 1510px) {
+  .sam-block-hover {
+    font-size: 2.6rem;
+  }
+}
+@media (max-width: 1366px) {
+  .sam-block-hover {
+    font-size: 2.4rem;
+  }
+  .sam-block-hover-block {
+    ul {
+        li {
+            font-size: 2rem;
+        }
+    }
+  }
+}
+
+@media (max-width: 1199px) {
+  .sam-block-hover {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .sam-block-hover-block {
+    ul {
+        li {
+            font-size: 1.6rem;
+            span {
+              min-width: 70px;
+            }
+        }
+    }
+    .bonding-level {
+      margin-top: 2rem;
+      p {
+        font-size: 1.6rem;
+      }
+    }
+  }
+}

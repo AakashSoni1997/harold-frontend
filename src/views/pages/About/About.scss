@@ -1,0 +1,448 @@
+.welcome-section-about {
+  margin-top: -140px;
+  clip-path: polygon(0 134px, 100% 0%, 100% 100%, 0 100%);
+  padding: 25rem 0 12rem;
+  background-color: var(--whiteColor);
+}
+
+.video-section-about {
+  position: relative;
+  display: flex;
+  .video-tag {
+    width: 100%;
+    max-height: 800px;
+    object-fit: cover;
+  }
+  .button-get-in-touch {
+    position: absolute;
+    bottom: 80px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    > a {
+      border-color: var(--BlueColor);
+      &:hover {
+        color: var(--secondaryColor);
+        border-color: var(--forWebsitePrimaryColor);
+      }
+      &:focus {
+        background-color: var(--BlueColor);
+        border-color: var(--BlueColor);
+        color: var(--whiteColor);
+        box-shadow: none;
+      }
+    }
+  }
+}
+
+.mission-vision-section {
+  h2 {
+    font-size: 11rem;
+    margin: 0;
+    color: var(--whiteColor);
+    text-transform: uppercase;
+    font-weight: 900;
+  }
+  h3 {
+    font-size: 5.6rem;
+    margin: 0;
+    color: var(--whiteColor);
+  }
+  .bg-website-color {
+    background-color: var(--secondaryColor);
+    padding: 15rem;
+    text-align: center;
+  }
+  .bg-mission-image {
+    background: url(../../../../public/images/about-mission.png) center
+      no-repeat;
+    background-size: cover;
+    padding: 15rem 5rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .bg-vision-image {
+    background: url(../../../../public/images/about-vision.png) center no-repeat;
+    background-size: cover;
+    padding: 15rem 5rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .bg-light-dark {
+    background-color: var(--lightPrimaryColor);
+    padding: 15rem;
+    text-align: center;
+  }
+}
+.about-core-value {
+  padding: 7rem 0;
+  .section-title {
+    margin-bottom: 5rem;
+  }
+  .iconbox {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 6rem;
+    margin-bottom: 6rem;
+    .icon {
+      width: 11rem;
+      height: 11rem;
+      background: var(--forWebsitePrimaryColor);
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    .iconbox-content {
+      padding-left: 3rem;
+      width: calc(100% - 11rem);
+      h4 {
+        font-size: 3.2rem;
+        margin-bottom: 10px;
+        color: var(--secondaryColor);
+        text-transform: uppercase;
+      }
+      p {
+        font-size: 2.4rem;
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+.contract-about-section {
+  background: url(../../../../public/images/contract-vehicles-bg.png) center
+    no-repeat;
+  background-size: cover;
+  padding: 12rem 0;
+  h2 {
+    color: var(--whiteColor);
+  }
+  .nav {
+    .nav-item:not(:last-child) {
+      margin-bottom: 2.5rem;
+    }
+    .nav-link {
+      color: var(--whiteColor);
+      font-size: 3.6rem;
+      font-weight: 700;
+      position: relative;
+      display: flex;
+      align-items: center;
+      transition: 0.3s;
+      padding: 0;
+      &:before {
+        content: "";
+        min-width: 30px;
+        min-height: 30px;
+        width: 30px;
+        height: 30px;
+        background: url(../../../../public/images/arrow-top-black.svg) center
+          no-repeat;
+        background-size: contain !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 3rem;
+        transition: 0.3s;
+      }
+      &:hover {
+        background-color: transparent;
+        color: var(--blackColor);
+        &:before {          
+          background: url(../../../../public/images/arrow-top-orange.svg) center
+            no-repeat;
+          transform: rotate(180deg);
+        }
+      }
+      &.active {
+        background-color: transparent;
+        color: var(--forWebsitePrimaryColor);
+        &:before {
+          background: url(../../../../public/images/arrow-top-orange.svg) center
+            no-repeat;
+          transform: rotate(180deg);
+        }
+      }
+    }
+  }
+}
+.f-s-24 {
+  font-size: 2.4rem !important;
+}
+.sam-assersions-section {
+  padding: 8rem 0;
+  background-color: var(--forWebsitePrimaryColor);
+  .sam-ass-bx {
+    margin-top: 4rem;
+    padding: 0 30px;
+  }
+}
+.the-team-section {
+  padding: 3rem 0;
+  background-color: var(--lightPrimaryColor);
+  .section-title {
+    h2 {
+      margin-bottom: 0;
+      color: var(--whiteColor);
+    }
+  }
+}
+.directors-section {
+  padding: 8rem 0;
+  .sparator-line {
+    border: 2px solid #bed4e6;
+    margin-bottom: 6rem;
+  }
+  .director-bx {
+    text-align: center;
+    margin: 3rem auto;
+    > img {
+      width: 100%;
+      height: 300px;
+      object-fit: contain;
+      max-width: 220px;
+    }
+    .director-profile-details {
+      margin-top: 3rem;
+      h4 {
+        font-size: 3.2rem;
+        margin-bottom: 0px;
+        font-weight: 900;
+        text-transform: uppercase;
+      }
+      p {
+        font-size: 2rem;
+        color: var(--DarkRed);
+        margin-bottom: 15px;
+        font-weight: 600;
+      }
+      a {
+        transition: 0.3s;
+        display: inline-block;
+        &:hover {
+          opacity: 0.7;
+        }
+      }
+    }
+  }
+}
+.leaders-section {
+  padding-top: 8rem;
+}
+
+.company-milestones-section {
+  background-color: #bed4e6;
+  padding: 10rem 0;
+  overflow: hidden;
+}
+
+// RESPONSIVE CSS
+@media (max-width: 1680px) {
+  .mission-vision-section {
+    .bg-website-color {
+      padding: 10rem;
+    }
+    .bg-mission-image {
+      padding: 10rem 5rem;
+    }
+  }
+  .mission-vision-section {
+    .bg-light-dark {
+      padding: 10rem;
+    }
+  }
+  .about-core-value {
+    .iconbox {
+      padding: 0;
+    }
+  }
+}
+@media (max-width: 1366px) {
+  .welcome-section-about {
+    padding: 15rem 0 5rem;
+    clip-path: polygon(0 100px, 100% 0%, 100% 100%, 0 100%);
+  }
+  .video-section-about {
+    .video-tag {
+      max-height: 550px;
+    }
+  }
+  .mission-vision-section {
+    .bg-website-color {
+      padding: 10rem;
+    }
+    h3 {
+      font-size: 4rem;
+    }
+    h2 {
+      font-size: 8rem;
+    }
+    .bg-light-dark {
+      padding: 10rem;
+    }
+  }
+  .about-core-value {
+    .iconbox {
+      padding: 0;
+      .icon {
+        width: 8rem;
+        height: 8rem;
+      }
+      .iconbox-content {
+        p {
+          font-size: 1.8rem;
+        }
+        h4 {
+          font-size: 2.8rem;
+        }
+      }
+    }
+  }
+  .contract-about-section {
+    .nav {
+      .nav-link {
+        font-size: 2.8rem;
+      }
+    }
+  }
+  .directors-section {
+    .director-bx {
+      .director-profile-details {
+        h4 {
+          font-size: 2.2rem;
+        }
+        p {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .welcome-section-about {
+    margin-top: -80px;
+    clip-path: polygon(0 54px, 100% 0%, 100% 100%, 0 100%);
+    padding: 10rem 0 5rem;
+  }
+  .mission-vision-section {
+    .row > .d-flex {
+      &:nth-child(1) {
+        order: 2;
+      }
+      &:nth-child(2) {
+        order: 1;
+      }
+      &:nth-child(3) {
+        order: 3;
+      }
+      &:nth-child(4) {
+        order: 4;
+      }
+    }
+    h3 {
+      font-size: 3rem;
+    }
+    .bg-website-color,
+    .bg-light-dark {
+      padding: 5rem;
+    }
+  }
+  .about-core-value {
+    padding: 7rem 5rem 2rem;
+  }
+  .contract-about-section {
+    padding: 7rem 5rem;
+  }
+  .sam-assersions-section {
+    padding: 7rem 5rem;
+  }
+  .leaders-section {
+    padding: 3rem 0 0;
+  }
+  .directors-section {
+    padding: 6rem 0;
+    .sparator-line {
+      border-width: 1px;
+      margin-bottom: 4rem;
+    }
+  }
+  .company-milestones-section {
+    padding: 8rem 0;
+    .mobile-width-100 {
+      width: 100% !important;
+    }
+  }
+  .video-section-about .button-get-in-touch {
+    bottom: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .mission-vision-section {
+    h2 {
+      font-size: 4rem;
+    }
+    .bg-mission-image {
+      padding: 10rem 3rem;
+      h3 {
+        font-size: 2.4rem;
+      }
+    }
+  }
+  .about-core-value {
+    padding: 7rem 0rem 2rem;
+    .iconbox {
+      .iconbox-content {
+        padding-left: 2rem;
+        width: calc(100% - 8rem);
+        h4 {
+          font-size: 2.4rem;
+        }
+      }
+    }
+  }
+  .contract-about-section {
+    padding: 7rem 0rem;
+    .nav {
+      .nav-link {
+        font-size: 2rem;
+      }
+    }
+  }
+  .sam-assersions-section {
+    padding: 7rem 0rem;
+    .f-s-24 {
+      font-size: 2rem !important;
+    }
+  }
+  .directors-section {
+    .col-10 {
+      width: 100%;
+    }
+    .director-bx {
+      margin: 2rem 0;
+      > img {
+        height: 215px;
+        max-width: 220px;
+      }
+      .director-profile-details {
+        h4 {
+          font-size: 2rem;
+        }
+      }
+    }
+  }
+  .video-section-about {
+    .button-get-in-touch {
+      bottom: 20px;
+    }
+  }
+}

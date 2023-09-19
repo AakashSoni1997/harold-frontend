@@ -1,0 +1,321 @@
+.logistics-experience-bx {
+  padding: 3.6rem;
+  background-color: var(--whiteColor);
+  margin-bottom: 6rem;
+  width: 100%;
+  box-shadow: 0 6px 12px rgb(0 0 0 / 55%);
+  img {
+    margin-bottom: 2rem;
+    width: 100%;
+    min-height: 300px;
+    max-height: 300px;
+    object-fit: cover;
+  }
+  .content-experience {
+    position: relative;
+    h3 {
+      font-size: 2.4rem;
+      font-weight: 600;
+      margin-bottom: 0rem;
+      min-height: 116px;
+      text-transform: uppercase;
+      display: -webkit-box;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    p {
+      font-size: 1.8rem;
+      margin-bottom: 0rem;
+      opacity: 0;
+      height: 0;
+      transition: 0.3s;
+      display: none;
+    }
+    .bottom-tag {
+      font-size: 2rem;
+      color: var(--secondaryColor);
+      min-height: 60px;
+    }
+    .plusicon-button {
+      background-color: var(--forWebsitePrimaryColor);
+      padding: 0;
+      border: 0;
+      box-shadow: 0 0 5px rgb(0 0 0 / 55%);
+      position: absolute;
+      top: -3.5rem;
+      left: 50%;
+      transform: translate(-50%, 0);
+      width: 3rem;
+      height: 3rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      cursor: pointer;
+      font-size: 2.4rem;
+      color: var(--whiteColor);
+      border: 0;
+      border-radius: 0;
+    }
+  }
+  &:hover {
+    .content-experience {
+      .plusicon-button {
+        background-color: var(--BlueColor);
+      }
+    }
+  }
+  &.active {
+    p {
+      opacity: 1;
+      margin-bottom: 2rem;
+      height: auto;
+      display: block;
+    }
+  }
+}
+
+
+.service-page-experience {
+  .content-experience {
+    .plusicon-button {
+      background-color: var(--DarkRed);
+    }
+  }
+  .logistics-experience-bx {
+    &:hover {
+      .content-experience {
+        .plusicon-button {
+          background-color: var(--lightPrimaryColor);
+        }
+      }
+    }
+  }
+}
+
+.logistic-page-experience {
+  .content-experience {
+    .plusicon-button {
+      background-color: var(--forWebsitePrimaryColor);
+    }
+  }
+  .logistics-experience-bx {
+    &:hover {
+      .content-experience {
+        .plusicon-button {
+          background-color: var(--lightPrimaryColor);
+        }
+      }
+    }
+  }
+}
+
+.modal-body {
+  .logistics-experience-bx {
+    margin-bottom: 0;
+    box-shadow: unset;
+    img {
+      min-height: unset;
+      height: auto;
+      max-height: 800px;
+    }
+    .content-experience {
+      .plusicon-button {
+        width: 6rem;
+        height: 6rem;
+        top: -5.5rem;
+        border: 0;
+      }
+      h3 {
+        min-height: unset;
+        margin-bottom: 4rem;
+        margin-top: 4rem;
+        font-size: 3.4rem;
+        font-weight: 900;
+      }
+      p {
+        height: unset;
+        display: block;
+        opacity: 1;
+        font-size: 2.4rem;
+      }
+      .bottom-tag {
+        color: var(--blackColor);
+        font-size: 2.4rem;
+        text-align: right;
+        margin-top: auto;
+        span {
+          display: block;
+        }
+      }
+    }
+    &.services-logistics-experience-bx {
+      .content-experience {
+        .plusicon-button {
+          background-color: var(--DarkRed);
+        }
+      }
+      &:hover {
+        .content-experience {
+          .plusicon-button {
+            background-color: var(--lightPrimaryColor);
+          }
+        }
+      }
+    }
+    &.logistics-logistics-experience-bx {
+      .content-experience {
+        .plusicon-button {
+          background-color: var(--forWebsitePrimaryColor);
+        }
+      }
+      &:hover {
+        .content-experience {
+          .plusicon-button {
+            background-color: var(--lightPrimaryColor);
+          }
+        }
+      }
+    }
+  }
+}
+.modal-90w {
+  width: 90%;
+  max-width: none !important;
+  margin: 2rem auto;
+}
+
+// RESPONSIVE CSS
+@media (max-width: 1800px) {
+  .logistics-experience-bx {
+    .content-experience {
+      h3 {
+        font-size: 2rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 1640px) {
+  .logistics-experience-bx {
+    .content-experience {
+      h3 {
+        min-height: 98px;
+      }
+      .bottom-tag {
+        font-size: 16px;
+        min-height: 46px;
+      }
+    }
+  }
+}
+@media (max-width: 1366px) {
+  .logistics-experience-bx {
+    img {
+      min-height: 230px;
+      max-height: 230px;
+    }
+  }
+  .modal-body {
+    .logistics-experience-bx {
+      .content-experience {
+        h3 {
+          font-size: 3rem;
+          margin: 3rem 0;
+        }
+        .bottom-tag {
+          font-size: 2rem;
+        }
+        p {
+          font-size: 1.8rem;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1288px) {
+  .logistics-experience-bx {
+    padding: 2rem;
+    .content-experience {
+      .bottom-tag {
+        font-size: 16px;
+        min-height: 50px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1199px) {
+  .logistics-experience-bx {
+    margin-bottom: 4rem;
+    padding: 3rem;
+    .content-experience {
+      h3 {
+        min-height: 90px;
+        margin-bottom: 5px;
+      }
+    }
+  }
+  .modal-body {
+    .logistics-experience-bx {
+      .content-experience {
+        .plusicon-button {
+          width: 4rem;
+          height: 4rem;
+          top: -4.5rem;
+        }
+        h3 {
+          margin: 2rem 0;
+          font-size: 2rem;
+        }
+        p {
+          font-size: 16px;
+        }
+        .bottom-tag {
+          margin-top: 3rem;
+          font-size: 2rem;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 991px) {
+  .logistics-experience-bx {
+    .content-experience {
+      h3 {
+        min-height: 90px;
+        font-size: 1.8rem;
+      }
+    }
+  }
+}
+@media (max-width: 767px) {
+  .logistics-experience-bx {
+    padding: 2rem;
+    img {
+      min-height: 320px;
+      max-height: 320px;
+    }
+  }
+  .logistics-experience-bx {
+    .content-experience {
+      h3 {
+        min-height: unset;
+      }
+      .bottom-tag {
+        min-height: unset;
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .logistics-experience-bx {
+    img {
+      min-height: 180px;
+      max-height: 180px;
+    }
+  }
+}

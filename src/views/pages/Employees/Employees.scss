@@ -1,0 +1,93 @@
+.employees-main-section {
+  position: relative;
+  text-align: center;
+  margin-top: 10rem;
+  padding: 10rem 5rem;
+  h1 {
+    font-size: 3.6rem;
+    margin: 0 0 2rem;
+    font-weight: 500;
+    color: var(--blackColor);
+    text-shadow: 0 0 0 var(--blackColor);
+  }
+  p {
+    font-size: 2.4rem;
+  }
+}
+.employees-bx-section {
+  padding: 0 0 15rem;
+  .employees-bx {
+    width: 100%;
+    box-shadow: 0 0 5px rgb(0 0 0 / 55%);
+    text-align: center;
+    padding: 4rem;
+    background-color: var(--LightBg);
+    display: block;
+    transition: 0.3s;
+    img {
+      max-width: 20rem;
+      width: 100%;
+      margin: 1rem auto 3rem;
+    }
+    h2 {
+      font-size: 2.4rem;
+      font-weight: 900;
+      color: var(--DarkRed);
+      margin-bottom: 0;
+      transition: 0.3s;
+    }
+    &:hover {
+      box-shadow: 0 0 15px rgb(0 0 0 / 55%);
+      transform: translateY(-5px);
+      h2 {
+        color: var(--secondaryColor);
+      }
+    }
+  }
+}
+
+// RESPONSIVE CSS
+@media (max-width: 1400px) {
+  .employees-bx-section {
+    .employees-bx {
+      padding: 2rem;
+    }
+  }
+}
+@media (max-width: 1366px) {
+  .employees-main-section {
+  }
+  .employees-bx-section {
+    padding: 0 3rem 7rem;
+    .employees-bx {
+      padding: 4rem 2rem;
+      h2 {
+        font-size: 1.8rem;
+      }
+    }
+  }
+}
+@media (max-width: 1199px) {
+  .employees-main-section {
+    margin-top: 6rem;
+    padding: 5rem;
+    h1 {
+      font-size: 2.8rem;
+    }
+  }
+}
+@media (max-width: 991px) {
+  .employees-bx-section {
+    .employees-bx {
+      margin-bottom: 3rem;
+    }
+  }
+}
+@media (max-width: 400px) {
+  .employees-main-section {
+    padding: 5rem 2rem;
+    h1 {
+      font-size: 2.4rem;
+    }
+  }
+}

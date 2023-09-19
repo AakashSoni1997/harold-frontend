@@ -1,0 +1,81 @@
+.contract-about-section .tab-content > .active {
+  display: flex;
+}
+.contract-box {
+  background-color: var(--lightPrimaryColor);
+  padding: 7rem 4rem;
+  color: var(--whiteColor);
+  max-width: 650px;
+  margin: 0 auto;
+  h2 {
+    font-size: 3.6rem;
+    margin-bottom: 3rem;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    li {
+      font-size: 2.6rem;
+      position: relative;
+      padding-left: 3rem;
+      padding-right: 1rem;
+      &:not(:last-child) {
+        margin-bottom: 1rem;
+      }
+      &::before {
+        content: "";
+        position: absolute;
+        width: 7px;
+        height: 7px;
+        border-radius: 100%;
+        background-color: var(--forWebsitePrimaryColor);
+        left: 0;
+        top: 15px;
+      }
+    }
+  }
+  a {
+    color: var(--forWebsitePrimaryColor);
+    font-size: 2.4rem;
+    font-weight: 400;
+    margin-top: 5rem;
+    display: inline-block;
+    transition: 0.3s;
+    &:hover {
+      font-style: italic;
+      color: #BED4E5;
+    }
+  }
+}
+
+// RESPONSIVE CSS
+@media (max-width: 1366px) {
+  .contract-box {
+    h2 {
+      font-size: 2.4rem;
+    }
+    ul {
+      li {
+        font-size: 2rem;
+      }
+    }
+    a {
+      font-size: 2rem;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .contract-box {
+    padding: 4rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .contract-box {
+    h2 {
+      font-size: 2rem;
+    }
+  }
+}

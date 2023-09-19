@@ -1,0 +1,64 @@
+.conversion-content {
+  padding: 5rem 0 0;
+  .point-bullet {
+    width: 3rem;
+    height: 3rem;
+    background-color: var(--DarkRed);
+    margin-bottom: 5rem;
+  }
+  h2 {
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 4rem;
+  }
+  p {
+    font-size: 2.4rem;
+    margin-bottom: 0;
+  }
+  .video-bx {
+    display: flex;
+    video {
+      width: 100%;
+      max-height: 420px;
+    }
+  }
+  .react-player {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+
+// RESPONSIVE CSS
+@media (max-width: 1366px) {
+  .conversion-content {
+    h2 {
+      margin-bottom: 2rem;
+    }
+    p {
+      font-size: 2rem;
+    }
+  }
+}
+@media (max-width: 991px) {
+  .conversion-content {
+    padding-top: 0;
+    h2 {
+      color: var(--forWebsitePrimaryColor);
+    }
+    .row {
+      flex-direction: column-reverse;
+    }
+    .point-bullet {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .conversion-content {
+    h2 {
+      font-size: 2.4rem;
+    }
+  }
+}

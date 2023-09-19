@@ -1,0 +1,344 @@
+.welcome-section-careers {
+  margin-top: -140px;
+  clip-path: polygon(0 134px, 100% 0%, 100% 100%, 0 100%);
+  padding: 25rem 0 12rem;
+  background-color: var(--LightBg);
+}
+
+.working-with-us-section {
+  padding: 10rem 0 35rem;
+  background-color: var(--forWebsitePrimaryColor);
+  .container {
+    max-width: 82%;
+    margin: 0 auto;
+    padding: 0;
+  }
+  h2 {
+    margin-bottom: 7rem;
+  }
+  .working-with-para {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    p {
+      font-size: 2.4rem;
+      margin-bottom: 7rem;
+    }
+    a {
+      border-color: var(--secondaryColor);
+      &:hover {
+        color: var(--blackColor);
+        border-color: var(--lightPrimaryColor);
+      }
+      &:focus {
+        background-color: var(--secondaryColor);
+        border-color: var(--secondaryColor);
+        color: var(--whiteColor);
+        box-shadow: none;
+      }
+    }
+  }
+}
+.bg-top-15 {
+  margin-top: -25rem;
+  .container {
+    max-width: 82%;
+    margin: 0 auto;
+    padding: 10rem 5rem;
+    &.bg-gray-light {
+      background-color: var(--LightBg);
+    }
+  }
+  .bx-benifits {
+    padding: 0 2rem;
+    h2 {
+      font-size: 4.8rem;
+      font-weight: 700;
+      margin: 0 0 2.5rem;
+      text-transform: uppercase;
+    }
+    p {
+      font-size: 2.4rem;
+      margin-bottom: 2rem;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      column-count: 2;
+      li {
+        position: relative;
+        padding-left: 3rem;
+        padding-right: 1rem;
+        font-size: 2.4rem;
+        &:not(:last-child) {
+          margin-bottom: 10px;
+        }
+        &:before {
+          content: "";
+          position: absolute;
+          width: 7px;
+          height: 7px;
+          border-radius: 100%;
+          background-color: var(--blackColor);
+          left: 0;
+          top: 15px;
+        }
+      }
+    }
+    ul+p {
+      margin-top: 1.5rem;
+      a {
+        color: var(--forWebsitePrimaryColor);
+        font-weight: 600;
+        &:hover {
+          font-style: italic;
+          color: var(--BlueColor);
+        }
+      }
+    }
+  }
+}
+
+.cta-blue-design {
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: var(--BlueColor);
+  padding: 10rem 5rem;
+  h2 {
+    font-size: 5.6rem;
+    font-weight: 700;
+    margin: 0 0 2.5rem;
+    text-align: center;
+    color: var(--whiteColor);
+  }
+  p {
+    text-align: center;
+    color: var(--whiteColor);
+    font-size: 3.6rem;
+    margin-bottom: 0;
+  }
+}
+
+.job-listing-section {
+  padding: 5rem 0;
+}
+
+.notice-section {
+  padding: 7rem 0rem;
+  background-color: var(--LightBg);
+  h4 {
+    font-size: 2.7rem;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  p {
+    font-size: 2.4rem;
+    margin-bottom: 5rem;
+  }
+  a {
+    color: var(--forWebsitePrimaryColor);
+    font-weight: 600;
+    &:hover {
+      font-style: italic;
+      color:  var(--DarkRed);
+    }
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 5rem;
+    li {
+      position: relative;
+      padding-left: 15px;
+      color: var(--blackColor);
+      font-size: 2.4rem;
+      margin-bottom: 1rem;
+      &:not(:last-child) {
+        margin-bottom: 10px;
+      }
+      &:before {
+        content: "";
+        position: absolute;
+        width: 7px;
+        height: 7px;
+        border-radius: 100%;
+        background-color: var(--blackColor);
+        left: 0;
+        top: 12px;
+      }
+    }
+  }
+}
+.job-opportunities-button {
+  margin: 7rem 0 0;
+  a {
+    border-color: var(--BlueColor);
+    box-shadow: 4.91px 4.91px 0.61px rgb(43 115 145 / 25%);
+    &:hover {
+      border-color: var(--forWebsitePrimaryColor);
+      color: var(--secondaryColor);
+    }
+    &:focus {
+      background-color: var(--BlueColor);
+      border-color: var(--BlueColor);
+      color: var(--whiteColor);
+      box-shadow: none;
+    }
+  }
+}
+
+// RESPONSIVE CSS
+@media (max-width: 1780px) {
+  .working-with-us-section {
+    h2 {
+      margin-bottom: 2rem;
+    }
+    .working-with-para {
+      p {
+        margin-bottom: 2rem;
+      }
+    }
+  }
+  .cta-blue-design {
+    h2 {
+      font-size: 4rem;
+    }
+  }
+}
+
+@media (max-width: 1366px) {
+  .working-with-us-section {
+    .container {
+      max-width: 90%;
+    }
+    h2 {
+      margin-bottom: 3rem;
+    }
+    .working-with-para {
+      padding: 0;
+      p {
+        font-size: 1.8rem;
+        margin-bottom: 3rem;
+      }
+    }
+  }
+  .bg-top-15 {
+    .container {
+      max-width: 90%;
+    }
+  }
+  .welcome-section-careers {
+    padding: 15rem 0 5rem;
+    clip-path: polygon(0 100px, 100% 0%, 100% 100%, 0 100%);
+  }
+  .job-opportunities-button {
+    margin: 4rem 0 0;
+  }
+  .bg-top-15 .bx-benifits {
+    h2 {
+      font-size: 4rem;
+    }
+    p {
+      font-size: 1.8rem;
+    }
+    ul {
+      li {
+        font-size: 1.8rem;
+        &:before {
+          top: 8px;
+        }
+      }
+    }
+  }
+  .cta-blue-design {
+    padding: 5rem;
+    h2 {
+      font-size: 3.2rem;
+    }
+    p {
+      font-size: 2.4rem;
+    }
+  }
+  .notice-section {
+    p {
+      font-size: 1.8rem;
+      margin-bottom: 3rem;
+    }
+    ul {
+      li {
+        font-size: 1.8rem;
+        &:before {
+          top: 8px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1199px) {
+  .bg-top-15 {
+    .container {
+      padding: 5rem;
+    }
+    .bx-benifits {
+      padding: 0;
+      h2 {
+        font-size: 3.2rem;
+      }
+      ul {
+        li {
+          padding-left: 2rem;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 991px) {
+  .welcome-section-careers {
+    margin-top: -80px;
+    clip-path: polygon(0 54px, 100% 0%, 100% 100%, 0 100%);
+    padding: 10rem 0 5rem;
+  }
+  .bg-top-15 {
+    .container {
+      &.bg-gray-light {
+        padding: 0;
+        .bx-benifits {
+          padding: 0 3rem 3rem;
+        }
+      }
+    }
+    .bx-benifits {
+      padding: 0;
+    }
+  }
+  .careers-military-section {
+    margin: 5rem 0 !important;
+    .container {
+      padding: 0;
+    }
+  }
+  .working-with-us-section {
+    padding-top: 5rem;
+  }
+  .notice-section {
+    ul {
+      margin: 0 0 3rem;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .bg-top-15 {
+    .bx-benifits {
+      ul {
+        column-count: 1;
+      }
+    }
+  }
+  .cta-blue-design {
+    padding: 5rem 2.5rem;
+    h2 {
+      font-size: 2.4rem;
+    }
+  }
+}

@@ -1,0 +1,248 @@
+.sevices-experience-bx {
+  padding: 3.6rem;
+  background-color: var(--whiteColor);
+  margin-bottom: 6rem;
+  width: 100%;
+  box-shadow: 0 6px 12px rgb(0 0 0 / 55%);
+  img {
+    margin-bottom: 2rem;
+    width: 100%;
+    min-height: 300px;
+    max-height: 300px;
+    object-fit: cover;
+  }
+  .content-experience {
+    position: relative;
+    h3 {
+      font-size: 2.4rem;
+      font-weight: 600;
+      margin-bottom: 0rem;
+      min-height: 116px;
+      text-transform: uppercase;
+    }
+    p {
+      font-size: 1.8rem;
+      margin-bottom: 0rem;
+      opacity: 0;
+      height: 0;
+      transition: 0.3s;
+      display: none;
+    }
+    .bottom-tag {
+      font-size: 2rem;
+      color: var(--DarkRed);
+      min-height: 60px;
+    }
+    .plusicon-button {
+      background-color: var(--DarkRed);
+      padding: 0;
+      border: 0;
+      box-shadow: 0 0 5px rgb(255 255 255 / 50%);
+      position: absolute;
+      top: -3.5rem;
+      left: 50%;
+      transform: translate(-50%, 0);
+      width: 3rem;
+      height: 3rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      cursor: pointer;
+      font-size: 2.4rem;
+      color: var(--whiteColor);
+      &:hover {
+        background-color: #231f20;
+      }
+    }
+  }
+  &.active {
+    p {
+      opacity: 1;
+      margin-bottom: 2rem;
+      height: auto;
+      display: block;
+    }
+  }
+}
+
+.modal-body {
+  .sevices-experience-bx {
+    margin-bottom: 0;
+    box-shadow: unset;
+    img {
+      min-height: unset;
+      height: auto;
+      max-height: 800px;
+    }
+    .content-experience {
+      .plusicon-button {
+        width: 6rem;
+        height: 6rem;
+        top: -5.5rem;
+        border: 0;
+      }
+      h3 {
+        min-height: unset;
+        margin-bottom: 4rem;
+        margin-top: 4rem;
+        font-size: 3.4rem;
+        font-weight: 900;
+      }
+      p {
+        height: unset;
+        display: block;
+        opacity: 1;
+        font-size: 2.4rem;
+      }
+      .bottom-tag {
+        color: var(--blackColor);
+        font-size: 2.4rem;
+        text-align: right;
+        margin-top: 7rem;
+        span {
+          display: block;
+        }
+      }
+    }
+  }
+}
+.modal-90w {
+  width: 90%;
+  max-width: none !important;
+  margin: 2rem auto;
+}
+
+// RESPONSIVE CSS
+@media (max-width: 1800px) {
+  .sevices-experience-bx {
+    .content-experience {
+      h3 {
+        font-size: 2rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 1580px) {
+  .sevices-experience-bx {
+    .content-experience {
+      h3 {
+        min-height: 122px;
+      }
+      .bottom-tag {
+        font-size: 1.8rem;
+      }
+    }
+  }
+}
+@media (max-width: 1366px) {
+  .sevices-experience-bx {
+    img {
+      min-height: 230px;
+      max-height: 230px;
+    }
+  }
+  .modal-body {
+    .sevices-experience-bx {
+      .content-experience {
+        h3 {
+          font-size: 3rem;
+          margin: 3rem 0;
+        }
+        .bottom-tag {
+          font-size: 2rem;
+        }
+        p {
+          font-size: 1.8rem;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1288px) {
+  .sevices-experience-bx {
+    .content-experience {
+      .bottom-tag {
+        font-size: 16px;
+        min-height: 50px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1199px) {
+  .sevices-experience-bx {
+    margin-bottom: 4rem;
+    padding: 2.6rem 2rem;
+    .content-experience {
+      h3 {
+        min-height: 90px;
+        margin-bottom: 5px;
+      }
+      .bottom-tag {
+        font-size: 18px;
+        min-height: 54px;
+      }
+    }
+  }
+
+  .modal-body {
+    .sevices-experience-bx {
+      .content-experience {
+        .plusicon-button {
+          width: 4rem;
+          height: 4rem;
+          top: -4.5rem;
+        }
+        h3 {
+          margin: 2rem 0;
+          font-size: 2rem;
+        }
+        p {
+          font-size: 16px;
+        }
+        .bottom-tag {
+          margin-top: 3rem;
+          font-size: 2rem;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 991px) {
+  .sevices-experience-bx {
+    .content-experience {
+      h3 {
+        min-height: 90px;
+        font-size: 1.8rem;
+      }
+    }
+  }
+}
+@media (max-width: 767px) {
+  .sevices-experience-bx {
+    padding: 2rem;
+    img {
+      min-height: 320px;
+      max-height: 320px;
+    }
+  }
+  .sevices-experience-bx {
+    .content-experience {
+      h3 {
+        min-height: unset;
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .sevices-experience-bx {
+    img {
+      min-height: 180px;
+      max-height: 180px;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="157.288" height="71.027" viewBox="0 0 157.288 71.027">
+  <g id="air-icon-fms" transform="translate(-15.411 -69.923)">
+    <path id="Path_94" data-name="Path 94" d="M96.96,97.66l-36.84-.04L54.19,88.2H42.45v19.92l13.07,20.36c1.52,2.37,41.53,3.27,44.47,3.27h37.22a59.607,59.607,0,0,0,12.57-1.3l2.5-.51a39.619,39.619,0,0,0,10.83-4.08c.86-.52.72-2.05,1.57-3.39,2.54-3.95,1.14-21.97-7.59-26.9-2.03-1.15-8.67-6.39-8.67-6.39a4.224,4.224,0,0,0-4.32-4.12l-23.2.04c-3.45,0-23.96,12.56-23.96,12.56Z" fill="none" stroke="#231f20" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Path_95" data-name="Path 95" d="M151.51,98.44H125.69c-7.82,0-7.11,16.23,0,16.9l7.11.68h25.12a3.3,3.3,0,0,0,2.93-4.28,77.2,77.2,0,0,0-2.44-7.91c-1.19-2.68-6.01-5.39-6.9-5.39Z" fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="1.5"/>
+    <line id="Line_87" data-name="Line 87" y1="17.58" transform="translate(132.81 98.44)" fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="1.5"/>
+    <line id="Line_88" data-name="Line 88" y1="17.58" transform="translate(145.66 98.44)" fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="Path_96" data-name="Path 96" d="M136.58,81.18v-7.8a1.62,1.62,0,1,0-3.18,0v7.8h-6.17V85.1h15.53V81.18h-6.17Z" fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="Path_97" data-name="Path 97" d="M132.84,73.96,98.61,70.74l-.51,5.73,16.5.22,2.26-.8,16,.94c.02-.95.02-1.91-.02-2.86Z" fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="Path_98" data-name="Path 98" d="M171.36,70.74l-34.21,3.22c.03.96.03,1.92.02,2.88l15.95-.95,2.26.8,16.5-.22-.51-5.73Z" fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="Path_99" data-name="Path 99" d="M49.43,84.82V78.09a1.4,1.4,0,1,0-2.74,0v6.73H41.36v3.39h13.4V84.82Z" fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="Path_100" data-name="Path 100" d="M46.21,78.59,16.67,75.81l-.44,4.95,14.24.19,1.95-.69,13.81.81c.01-.82.02-1.65-.01-2.47Z" fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="Path_101" data-name="Path 101" d="M79.45,75.81,49.92,78.59c.03.83.03,1.66.01,2.48l13.77-.82,1.95.69,14.24-.19-.44-4.95Z" fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="1.5"/>
+    <circle id="Ellipse_89" data-name="Ellipse 89" cx="4.22" cy="4.22" r="4.22" transform="translate(69.08 131.76)" fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="1.5"/>
+    <circle id="Ellipse_90" data-name="Ellipse 90" cx="4.22" cy="4.22" r="4.22" transform="translate(130.76 131.76)" fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="1.5"/>
+    <line id="Line_89" data-name="Line 89" x2="113.8" transform="translate(50.9 121.29)" fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="1.5"/>
+    <circle id="Ellipse_91" data-name="Ellipse 91" cx="4.35" cy="4.35" r="4.35" transform="translate(68.22 104.09)" fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="1.5"/>
+    <circle id="Ellipse_92" data-name="Ellipse 92" cx="4.35" cy="4.35" r="4.35" transform="translate(82.51 104.09)" fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="1.5"/>
+    <circle id="Ellipse_93" data-name="Ellipse 93" cx="4.35" cy="4.35" r="4.35" transform="translate(96.97 104.09)" fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="Path_102" data-name="Path 102" d="M52.05,102.32l-3.65,2.32a1.139,1.139,0,0,1-1.7-.99V95.03a1.245,1.245,0,0,1,1.06-1.22l2.66-.35a1.228,1.228,0,0,1,1.38,1.05l1.38,5.53a2.252,2.252,0,0,1-1.13,2.27Z" fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="1.5"/>
+    <line id="Line_90" data-name="Line 90" x1="41.52" transform="translate(108.87 90.7)" fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="1.5"/>
+  </g>
+</svg>

@@ -1,0 +1,125 @@
+.experience-bx {
+  padding: 3.6rem;
+  background-color: var(--whiteColor);
+  margin-bottom: 6rem;
+  width: 100%;
+  box-shadow: 0 6px 12px rgb(0 0 0 / 55%);
+  img {
+    margin-bottom: 2rem;
+    width: 100%;
+    min-height: 300px;
+    max-height: 300px;
+    object-fit: cover;
+  }
+  .content-experience {
+    position: relative;
+    h3 {
+      font-size: 2.4rem;
+      font-weight: 600;
+      margin-bottom: 0rem;
+      min-height: 116px;
+      text-transform: uppercase;
+    }
+    p {
+      font-size: 1.8rem;
+      margin-bottom: 0rem;
+      opacity: 0;
+      height: 0;
+      transition: .3s;
+      display: none;
+    }
+    .bottom-tag {
+      font-size: 2rem;
+      color: var(--forWebsitePrimaryColor);
+      min-height: 60px;
+    }
+    .plusicon-button {
+      background-color: var(--forWebsitePrimaryColor);
+      padding: 0;
+      box-shadow: 0 0 5px rgb(255 255 255 / 50%);
+      position: absolute;
+      top: -3.5rem;
+      left: 50%;
+      transform: translate(-50%, 0);
+      width: 3rem;
+      height: 3rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      cursor: pointer;
+      font-size: 2.4rem;
+      color: var(--whiteColor);
+    }
+  }
+  &.active {
+    p {
+      opacity:1;
+      margin-bottom: 2rem;
+      height: auto;
+      display: block;
+    }
+  }
+}
+
+// RESPONSIVE CSS
+@media (max-width: 1500px) {
+  .experience-bx {
+    .content-experience {
+      h3 {
+        font-size: 2rem;
+      }
+    }
+  }
+}
+@media (max-width: 1366px) {
+  .experience-bx {
+    .content-experience {
+      h3 {
+        font-size: 2rem;
+      }
+      .bottom-tag {
+        font-size: 1.8rem;
+      }
+    }
+  }
+}
+
+
+@media (max-width: 991px) {
+  .experience-bx {
+    padding: 2rem;
+    margin-bottom: 4rem;
+    img {
+      min-height: 180px;
+      max-height: 180px;
+    }
+    .content-experience {
+      h3 {
+        font-size: 2rem;
+      }
+      .bottom-tag {
+        font-size: 1.8rem;
+      }
+    }
+  }
+}
+@media (max-width: 767px) {
+  .experience-bx {
+    .content-experience {
+      .bottom-tag {
+        font-size: 16px;
+      }
+    }
+  }
+}
+@media (max-width: 575px) {
+  .experience-bx {
+    .content-experience {
+      h3 {
+        min-height: unset;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}

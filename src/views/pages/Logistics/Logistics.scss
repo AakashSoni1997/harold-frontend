@@ -1,0 +1,162 @@
+.welcome-section-logistics {
+  margin-top: -140px;
+  clip-path: polygon(0 134px, 100% 0%, 100% 100%, 0 100%);
+  padding: 25rem 0 12rem;
+  background-color: var(--LightBg);
+  a {
+    border-color: var(--forWebsitePrimaryColor);
+    &:hover {
+      color: var(--blackColor);
+      border-color: var(--blackColor);
+    }
+    &:focus {
+      background-color: var(--forWebsitePrimaryColor);
+      border-color: var(--forWebsitePrimaryColor);
+      color: var(--blackColor);
+      box-shadow: none;
+    }
+  }
+}
+
+.capabilities-logistics-section {
+  padding: 7rem 0;
+  background-color: var(--lightPrimaryColor);
+  box-shadow: 0 7px 20px rgb(0 0 0 / 50%);
+  position: relative;
+  ul {
+    list-style: none;
+    padding: 0;
+    li {
+      position: relative;
+      font-size: 3.2rem;
+      padding-left: 2rem;
+      margin-bottom: 2rem;
+      color: var(--whiteColor);
+      &:before {
+        content: "";
+        width: 8px;
+        height: 8px;
+        background-color: var(--forWebsitePrimaryColor);
+        border-radius: 100%;
+        position: absolute;
+        left: 0;
+        top: 20px;
+      }
+    }
+  }
+}
+
+.experience-section-logistics {
+  background-color: var(--LightBg);
+  padding: 5rem 0;
+  .section-title {
+    margin-bottom: 5rem;
+  }
+  .see-more-experience {
+    text-align: right;
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    .with-arrow-down {
+      border-color: var(--blackColor);
+      cursor: pointer;
+      display: inline-block;
+      svg {
+        font-size: 3rem;
+        transition: 0.3s;
+      }
+      &:hover {
+        color: var(--BlueColor);
+        border-color: var(--BlueColor);
+      }
+      &.active {
+        svg {
+          transform: rotate(-180deg);
+        }
+      }
+      &:focus {
+        background-color: var(--blackColor);
+        border-color: var(--blackColor);
+        color: var(--whiteColor);
+        box-shadow: none;
+      }
+    }
+  }
+  .hide-experience {
+    display: none;
+  }
+  .show-experience {
+    display: flex;
+  }
+}
+.logistics-contact-section {
+  background-color: #7f7f7f;
+  padding: 7rem 0;
+  text-align: center;
+  h3 {
+    font-size: 3.6rem;
+    font-weight: 600;
+    color: var(--whiteColor);
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+  }
+  a {
+    border-color: var(--BlueColor);
+    &:hover {
+      border-color: var(--forWebsitePrimaryColor);
+      color: var(--forWebsitePrimaryColor);
+    }
+    &:focus {
+      background-color: var(--BlueColor);
+      border-color: var(--BlueColor);
+      color: var(--whiteColor);
+      box-shadow: none;
+    }
+  }
+}
+
+// RESPONSIVE CSS
+@media (max-width: 1540px) {
+  .capabilities-logistics-section {
+    ul {
+      li {
+        font-size: 2.4rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 1366px) {
+  .welcome-section-logistics {
+    padding: 15rem 0 5rem;
+    clip-path: polygon(0 100px, 100% 0%, 100% 100%, 0 100%);
+  }
+}
+@media (max-width: 991px) {
+  .welcome-section-logistics {
+    margin-top: -80px;
+    clip-path: polygon(0 54px, 100% 0%, 100% 100%, 0 100%);
+    padding: 10rem 0 5rem;
+  }
+  .logistics-contact-section {
+    h3 {
+      font-size: 2.6rem;
+    }
+  }
+}
+@media (max-width: 767px) {
+  .experience-section-logistics {
+    .see-more-experience {
+      text-align: center;
+    }
+  }
+}
+@media (max-width: 460px) {
+  .capabilities-logistics-section {
+    ul {
+      li {
+        font-size: 2rem;
+      }
+    }
+  }
+}

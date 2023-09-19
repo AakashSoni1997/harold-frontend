@@ -1,0 +1,303 @@
+.contact-form-section {
+  margin-top: -140px;
+  clip-path: polygon(0 134px, 100% 0%, 100% 100%, 0 100%);
+  background-color: var(--LightBg);
+  .container {
+    padding: 0 0 0 30rem;
+    overflow: hidden;
+  }
+  .bg-sky-blue {
+    background-color: var(--BlueColor);
+    padding: 15rem 0 5rem;
+    .margin-left-custom {
+      margin-left: 10rem;
+    }
+  }
+  .left-dark-bx {
+    background-color: var(--lightPrimaryColor);
+    padding: 10rem;
+    position: relative;
+    margin-left: -10rem;
+    .icon {
+      position: absolute;
+      top: -7rem;
+      left: 5rem;
+      img {
+        max-width: 140px;
+      }
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      li {
+        display: flex;
+        &:not(:last-child) {
+          margin-bottom: 3rem;
+        }
+        .icon-bx {
+          width: 2rem;
+          margin-right: 4rem;
+          color: var(--whiteColor);
+          font-size: 2.2rem;
+        }
+        .contact-details {
+          width: calc(100% - 6rem);
+          h4 {
+            font-size: 2.4rem;
+            color: var(--whiteColor);
+            margin-bottom: 10px;
+            text-transform: uppercase;
+          }
+          p, a {
+            color: #BED4E5;
+            font-size: 2rem;
+            margin: 0;
+            font-weight: 600;
+          }
+          a:hover {
+            color: var(--forWebsitePrimaryColor);
+            font-style: italic;
+          }
+        }
+      }
+    }
+  }
+  .contact-form {
+    h2 {
+      font-size: 4.2rem;
+      color: var(--whiteColor);
+      margin-bottom: 1.5rem;
+    }
+    label {
+      font-size: 2rem;
+      margin-bottom: 10px;
+      color: var(--whiteColor);
+    }
+    .form-group {
+      margin-bottom: 15px;
+    }
+    .form-control {
+      padding: 8px 15px;
+      border: 1px solid var(--lightPrimaryColor);
+      font-size: 16px;
+      border-radius: 0;
+    }
+    textarea.form-control {
+      min-height: 24rem;
+    }
+    .checkbox-btn {
+      input {
+        display: none;
+      }
+      span {
+        display: inline-flex !important;
+        font-size: 2rem;
+        align-items: center;
+        cursor: pointer;
+        i {
+          width: 2.6rem;
+          height: 2.6rem;
+          min-width: 2.5rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-right: 1rem;
+          border: 2px solid #2b7390;
+          background-color: #ffffff;
+          border-radius: 0;
+        }
+      }
+      input:checked + span i {
+        content: "";
+        background: var(--secondaryColor)
+          url(../../../../public/images/check.svg) no-repeat 50%;
+        // (../../../assets/images/bg-cruve.svg)
+        background-size: 1.5rem;
+        border-color: var(--secondaryColor);
+      }
+    }
+    .checkbox-btn {
+      margin-bottom: 2rem;
+    }
+    .btn-outline {
+      border: 2px solid var(--secondaryColor);
+      min-width: 25rem;
+      box-shadow: 4.91px 4.91px 0.61px rgb(237 102 47 / 25%);
+      &:hover {
+        border-color: var(--lightPrimaryColor);
+        border-width: 3px;
+        color: var(--blackColor);
+        background-color: var(--whiteColor);
+      }
+      &:focus {
+        background-color: var(--secondaryColor);
+        border-color: var(--secondaryColor);
+        color: var(--whiteColor);
+        box-shadow: none;
+      }
+    }
+  }
+}
+
+// Responsive css
+@media (min-width: 1640px) and (max-width: 1780px) {
+  .contact-form-section {
+    .left-dark-bx {
+      padding-left: 5rem;
+      padding-right: 5rem;
+    }
+  }
+}
+@media (max-width: 1520px) {
+  .contact-form-section {
+    .bg-sky-blue {
+      .margin-left-custom {
+        margin-left: 5rem;
+        width: 56%;
+      }
+    }
+  }
+}
+@media (min-width: 1367px) and (max-width: 1550px) {
+  .contact-form-section {
+    .left-dark-bx {
+      padding-left: 4rem;
+      padding-right: 4rem;
+      ul {
+        li {
+          .contact-details {
+            p, a {
+              font-size: 1.8rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1366px) {
+  .contact-form-section {
+    clip-path: polygon(0 100px, 100% 0%, 100% 100%, 0 100%);
+    .container {
+      padding: 0 0 0 20rem;
+    }
+    .left-dark-bx {
+      padding: 10rem 4rem;
+    }
+    .contact-form {
+      h2 {
+        font-size: 3.6rem;
+      }
+      textarea.form-control {
+        min-height: 15rem;
+      }
+      .checkbox-btn {
+        span {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+@media (min-width: 1120px) and (max-width: 1248px) {
+  .contact-form-section {
+    .left-dark-bx {
+      ul {
+        li {
+          .contact-details {
+            p{
+              font-size: 1.6rem;
+            }
+            a {
+              font-size: 1.6rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1199px) {
+  .contact-form-section {
+    .bg-sky-blue {
+      .margin-left-custom {
+        margin-left: 3rem;
+        width: 60%;
+      }
+    }
+  }
+}
+@media (max-width: 991px) {
+  .contact-form-section {
+    margin-top: -80px;
+    clip-path: polygon(0 54px, 100% 0%, 100% 100%, 0 100%);
+    .bg-sky-blue {
+      margin-top: 30rem;
+      .margin-left-custom {
+        width: 100%;
+        max-width: 90%;
+        margin: 5rem auto 0;
+      }
+    }
+    .left-dark-bx {
+      margin-top: -30rem;
+      max-width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 7rem;
+    }
+    .container {
+      padding: 0;
+    }
+  }
+}
+@media (max-width: 550px) {
+  .contact-form-section {
+    .left-dark-bx {
+      padding: 8rem 3rem 5rem;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-form-section {
+    .left-dark-bx {
+      padding: 7rem 2rem 5rem;
+      .icon {
+        top: -6rem;
+        img {
+          max-width: 120px;
+        }
+      }
+      ul {
+        li {
+          .contact-details {
+            a {
+              font-size: 1.5rem;
+            }
+            h4 {
+              font-size: 2rem;
+            }
+            p {
+              word-wrap: break-word;
+              font-size: 1.5rem;
+            }
+          }
+          .icon-bx {
+            margin-right: 2rem;
+          }
+        }
+      }
+    }
+    .contact-form {
+      h2 {
+        font-size: 2.6rem;
+      }
+    }
+  }
+}
+.error {
+  color: var(--forWebsitePrimaryColor) !important;
+}

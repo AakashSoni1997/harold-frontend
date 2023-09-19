@@ -1,0 +1,35 @@
+.welcome-section-transparency-coverage {
+  margin-top: -140px;
+  clip-path: polygon(0 134px, 100% 0%, 100% 100%, 0 100%);
+  padding: 20rem 0 12rem;
+  background-color: var(--forWebsitePrimaryColor);
+  a {
+    border-color: var(--secondaryColor);
+    color: var(--lightPrimaryColor);
+    &:hover {
+      color: var(--blackColor);
+      border-color: var(--lightPrimaryColor);
+    }
+    &:focus {
+      background-color: var(--secondaryColor);
+      border-color: var(--secondaryColor);
+      color: var(--whiteColor);
+      box-shadow: none;
+    }
+  }
+}
+
+// Responsive CSS
+@media (max-width: 1366px) {
+  .welcome-section-transparency-coverage {
+    padding: 15rem 0 5rem;
+    clip-path: polygon(0 100px, 100% 0%, 100% 100%, 0 100%);
+  }
+}
+@media (max-width: 1366px) {
+  .welcome-section-transparency-coverage {
+    margin-top: -80px;
+    clip-path: polygon(0 54px, 100% 0%, 100% 100%, 0 100%);
+    padding: 10rem 0 5rem;
+  }
+}

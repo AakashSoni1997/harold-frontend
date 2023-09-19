@@ -1,0 +1,45 @@
+.design-box {
+  background-color: var(--LightBg);
+  .content-design {
+    padding: 4rem;
+    p {
+      font-size: 2.4rem;
+      margin: 0;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      li {
+        position: relative;
+        font-size: 2.4rem;
+        padding-left: 2rem;
+        margin-bottom: 1rem;
+        &:before {
+          content: "";
+          width: 8px;
+          height: 8px;
+          background-color: var(--DarkRed);
+          border-radius: 100%;
+          position: absolute;
+          left: 0;
+          top: 12px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 460px) {
+  .design-box {
+    .content-design {
+      ul {
+        li {
+          font-size: 1.8rem;
+          &::before {
+            top: 7px;
+          }
+        }
+      }
+    }
+  }
+}
